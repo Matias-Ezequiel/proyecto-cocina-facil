@@ -1,0 +1,110 @@
+
+body{
+    background-image: url(../img/FONDO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+//* COLORES ------------------------------------------------------------------------------------------------------------------------
+
+$c-princpal: #6c24af;
+$c-princpal-claro: #9e4fee;
+$c-verde: #1f9c00;
+$c-rosa: #b337a8;
+$c-marron: #966B45;
+$c-naranja: #D16D0F;
+
+//* GRADIENTES 
+
+@mixin c-grad-main {
+    background: #a35cff;
+    background: linear-gradient(0deg, rgba(163,93,255,1) 0%, rgba(133,63,173,1) 42%, rgba(88,46,115,1) 74%, rgba(64,36,91,1) 100%);
+}
+@mixin c-grad-verde {
+    background: rgb(1,36,0);
+    background: linear-gradient(180deg, rgba(1,36,0,1) 0%, rgba(17,121,9,1) 38%, rgb(9, 226, 23) 100%);
+}
+@mixin c-grad-rosa {
+    background: rgb(66,0,85);
+    background: linear-gradient(180deg, rgba(66,0,85,1) 0%, rgba(179,55,168,1) 49%, rgba(230,101,255,1) 100%);
+}
+@mixin c-grad-naranja {
+    background: #d16d0f;
+    background: linear-gradient(180deg, rgba(209,109,15,1) 0%, rgba(224,143,25,1) 49%, rgb(255, 182, 65) 100%);
+}
+@mixin c-grad-marron {
+    background: rgb(128,89,54);
+    background: linear-gradient(180deg, rgb(105, 73, 44) 0%, rgb(122, 87, 56) 33%, rgba(215,180,114,1) 100%);
+}
+@mixin c-grad-footer {
+    background: rgb(163,93,255);
+    background: linear-gradient(180deg, rgba(163,93,255,1) 0%, rgba(133,63,173,1) 42%, rgba(88,46,115,1) 72%, rgba(64,36,91,1) 100%);
+} 
+    
+//* ANIMATIONS - TRANSITIONS
+
+@mixin trans-scale-img {
+        padding: 0;
+        margin: auto;
+            :hover{
+            transform: scale(1.1,1.1);
+            transform-box: 0;
+            transition: 0.5s;
+    }
+}
+
+@keyframes textAlpha {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slide-carousel {
+    0%{opacity: 0; left: 0;}
+    100%{opacity: 1; left: 15px;}
+}
+
+//* DISPLAYS
+
+@mixin ds-flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin ds-flex-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin ds-flex-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+//* CONTENEDORES DE RECETAS
+
+@mixin contenedor-receta{
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+}
+
+//* TODO VEGANO
+//* LICUADOS
+//* 15 MIN
+//* SOJA

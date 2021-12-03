@@ -1,0 +1,44 @@
+nav{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    @include c-grad-main ();  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;        
+        ul{
+            margin: 0;
+        }
+}
+
+.nav-sticky{
+    position: sticky;
+    top: 0%;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 0;
+}
+
+.list-nav li {   
+    margin: 0;
+    padding: 20px;
+    color: #9e4fee;                                
+}
+
+#hover-list li a:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+    color: $c-princpal-claro;
+    text-decoration: none;
+}    
+
+.vio{
+    background-color: #9e4fee;
+}
+.vio:hover{
+    background-color: #6219a7;
+}

@@ -1,0 +1,35 @@
+* {
+    padding: auto;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 1em;       
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c24af;
+    text-align: center; 
+}
+
+h2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10em;
+}
+
+//* SIZES
+
+$w-75: 75%;
+$w-80: 80%;
+$w-85: 85%;
+$w-95: 95%;
+$h-50: 25vh;
+$h-40: 40%vh;
+
+//* FONTS
+
+$fs-13: 1.3em;
+$fs-14: 1.4em;
+$fs-15: 1.5em;
