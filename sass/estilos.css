@@ -234,7 +234,7 @@ h3 {
 .contenedor-todo-vegano {
   margin: auto;
   padding: 0;
-  width: 60%;
+  width: 100%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -244,9 +244,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -256,6 +256,11 @@ h3 {
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
+}
+
+.titulo_contenedor-verde {
+  text-decoration: none;
+  color: #446e39;
 }
 
 .cenTer {
@@ -288,7 +293,7 @@ h3 {
 .contenedor-licuados {
   margin: auto;
   padding: 0;
-  width: 60%;
+  width: 100%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -298,9 +303,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -345,7 +350,7 @@ h3 {
 .contenedor-15min {
   margin: auto;
   padding: 0;
-  width: 60%;
+  width: 100%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -355,9 +360,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -386,7 +391,7 @@ h3 {
 .contenedor-soja {
   margin: auto;
   padding: 0;
-  width: 60%;
+  width: 100%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -396,9 +401,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
