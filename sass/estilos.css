@@ -201,6 +201,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #9e4fee;
 }
 
 .aparecer {
@@ -226,9 +227,7 @@ h3 {
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
-  background: #012400;
-  background: -webkit-gradient(linear, left top, left bottom, from(#012400), color-stop(38%, #117909), to(#09e217));
-  background: linear-gradient(180deg, #012400 0%, #117909 38%, #09e217 100%);
+  background-color: #9e4fee;
 }
 
 .contenedor-todo-vegano {
@@ -250,12 +249,11 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #012400;
-  background: -webkit-gradient(linear, left top, left bottom, from(#012400), color-stop(38%, #117909), to(#09e217));
-  background: linear-gradient(180deg, #012400 0%, #117909 38%, #09e217 100%);
+  background-color: #9e4fee;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
+  background-color: #9e4fee;
 }
 
 .cenTer {
@@ -280,9 +278,6 @@ h3 {
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
-  background: #420055;
-  background: -webkit-gradient(linear, left top, left bottom, from(#420055), color-stop(49%, #b337a8), to(#e665ff));
-  background: linear-gradient(180deg, #420055 0%, #b337a8 49%, #e665ff 100%);
 }
 
 .contenedor-licuados {
@@ -304,9 +299,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #420055;
-  background: -webkit-gradient(linear, left top, left bottom, from(#420055), color-stop(49%, #b337a8), to(#e665ff));
-  background: linear-gradient(180deg, #420055 0%, #b337a8 49%, #e665ff 100%);
+  background-color: #9e4fee;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
@@ -337,9 +330,6 @@ h3 {
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
-  background: #d16d0f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d16d0f), color-stop(49%, #e08f19), to(#ffb641));
-  background: linear-gradient(180deg, #d16d0f 0%, #e08f19 49%, #ffb641 100%);
 }
 
 .contenedor-15min {
@@ -361,9 +351,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #d16d0f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d16d0f), color-stop(49%, #e08f19), to(#ffb641));
-  background: linear-gradient(180deg, #d16d0f 0%, #e08f19 49%, #ffb641 100%);
+  background-color: #9e4fee;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
@@ -378,9 +366,6 @@ h3 {
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
-  background: #805936;
-  background: -webkit-gradient(linear, left top, left bottom, from(#69492c), color-stop(33%, #7a5738), to(#d7b472));
-  background: linear-gradient(180deg, #69492c 0%, #7a5738 33%, #d7b472 100%);
 }
 
 .contenedor-soja {
@@ -402,9 +387,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #805936;
-  background: -webkit-gradient(linear, left top, left bottom, from(#69492c), color-stop(33%, #7a5738), to(#d7b472));
-  background: linear-gradient(180deg, #69492c 0%, #7a5738 33%, #d7b472 100%);
+  background-color: #9e4fee;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;

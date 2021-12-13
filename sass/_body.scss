@@ -29,6 +29,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: $c-princpal-claro;
 }
 @mixin border-radius {
     border-solid: 30px;
@@ -55,12 +56,12 @@ h3 {
 }
 .borde-verde{
     @include border-radius();
-    @include c-grad-verde ();
+    background-color: $c-princpal-claro;
 }
 .contenedor-todo-vegano{
     @include contenedor-receta ();
-    @include c-grad-verde ();
     @include border-radius ();
+    background-color: $c-princpal-claro;
 }
 .cenTer{
     display: flex;
@@ -74,12 +75,10 @@ h3 {
     text-align: center;    
 }
 .borde-rosa{
-    @include border-radius();
-    @include c-grad-rosa ();
+    @include border-radius();    
 }
 .contenedor-licuados{
-    @include contenedor-receta ();
-    @include c-grad-rosa ();
+    @include contenedor-receta ();    
     @include border-radius ();
 }
 .cenTer{
@@ -96,11 +95,9 @@ h3 {
 }
 .borde-naranja{
     @include border-radius();
-    @include c-grad-naranja ();
 }
 .contenedor-15min{
     @include contenedor-receta ();
-    @include c-grad-naranja ();
     @include border-radius();
 }
 
@@ -111,10 +108,8 @@ h3 {
 }
 .borde-marron{
     @include border-radius();
-    @include c-grad-marron ();
 }
 .contenedor-soja{
     @include contenedor-receta ();
-    @include c-grad-marron ();
     @include border-radius();
 }
