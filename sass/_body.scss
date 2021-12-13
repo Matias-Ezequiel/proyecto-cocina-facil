@@ -29,6 +29,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: $c-princpal;
 }
 @mixin border-radius {
     border-solid: 30px;
@@ -47,23 +48,18 @@ h3 {
     text-align: center;
 }
 
+
 //* TODO VEGANO -----------------------------------------------------------------------------------------------
 .title-verde{
     color: $c-verde;
     text-align: center;
 }
 .borde-verde{
-    @include border-radius ();
-    color: rgb(108, 36, 175);
+    @include border-radius();
 }
 .contenedor-todo-vegano{
     @include contenedor-receta ();
-    color: $c-princpal-claro;
     @include border-radius ();
-}
-.titulo_contenedor-verde{
-    @include titulos-contenedores-receta ();
-    color: $c-principal;
 }
 .cenTer{
     display: flex;
@@ -77,17 +73,11 @@ h3 {
     text-align: center;    
 }
 .borde-rosa{
-    @include border-radius();
-    @include c-grad-rosa ();
+    @include border-radius();    
 }
 .contenedor-licuados{
-    @include contenedor-receta ();
-    @include c-grad-rosa ();
+    @include contenedor-receta ();    
     @include border-radius ();
-}
-.titulo_contenedor-rosa{
-    @include titulos-contenedores-receta ();
-    color: $c-rosa;
 }
 .cenTer{
     display: flex;
@@ -96,32 +86,28 @@ h3 {
     align-items: center;
 }
 
-//* 15 MIN -----------------------------------------------------------------------------------------------
+//* 15 MIN
 .title-naranja{
     color: $c-naranja;
     text-align: center;
 }
 .borde-naranja{
     @include border-radius();
-    @include c-grad-naranja ();
 }
 .contenedor-15min{
     @include contenedor-receta ();
-    @include c-grad-naranja ();
     @include border-radius();
 }
 
-//* SOJA -----------------------------------------------------------------------------------------------
+//* SOJA
 .title-marron{
     color: $c-marron;
     text-align: center;
 }
 .borde-marron{
     @include border-radius();
-    @include c-grad-marron ();
 }
 .contenedor-soja{
     @include contenedor-receta ();
-    @include c-grad-marron ();
     @include border-radius();
 }
