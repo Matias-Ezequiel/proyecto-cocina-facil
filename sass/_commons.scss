@@ -16,7 +16,6 @@ a{
 $c-princpal: #6c24af;
 $c-princpal-claro: #9e4fee;
 $c-verde: #1f9c00;
-$c-verde-oscuro: #446e39;
 $c-rosa: #b337a8;
 $c-marron: #966B45;
 $c-naranja: #D16D0F;
@@ -28,8 +27,8 @@ $c-naranja: #D16D0F;
     background: linear-gradient(0deg, rgba(163,93,255,1) 0%, rgba(133,63,173,1) 42%, rgba(88,46,115,1) 74%, rgba(64,36,91,1) 100%);
 }
 @mixin c-grad-verde {
-    background: rgb(1,36,0,0.7);
-    background: linear-gradient(180deg, rgba(1,36,0,0.7) 0%, rgba(17,121,9,0.7) 38%, rgb(9, 226, 23,0.7) 100%);
+    background: rgb(1,36,0);
+    background: linear-gradient(180deg, rgba(1,36,0,1) 0%, rgba(17,121,9,1) 38%, rgb(9, 226, 23) 100%);
 }
 @mixin c-grad-rosa {
     background: rgb(66,0,85);
@@ -46,7 +45,7 @@ $c-naranja: #D16D0F;
 @mixin c-grad-footer {
     background: rgb(163,93,255);
     background: linear-gradient(180deg, rgba(163,93,255,1) 0%, rgba(133,63,173,1) 42%, rgba(88,46,115,1) 72%, rgba(64,36,91,1) 100%);
-}  
+} 
     
 //* ANIMATIONS - TRANSITIONS
 
@@ -96,17 +95,16 @@ $c-naranja: #D16D0F;
 @mixin contenedor-receta{
     margin: auto;
     padding: 0;
-    width: 100%;
+    width: 60%;
     height: auto;
     list-style: none;
     display: flex;
     flex-direction: row;   
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    background-color: $c-princpal;
 }
-@mixin titulos-contenedores-receta{
-    text-decoration:none;
-}
+
 //* TODO VEGANO
 //* LICUADOS
 //* 15 MIN
