@@ -54,16 +54,16 @@ h3 {
 }
 .borde-verde{
     @include border-radius ();
-    @include c-grad-verde ();
+    color: rgb(108, 36, 175);
 }
 .contenedor-todo-vegano{
     @include contenedor-receta ();
-    @include c-grad-verde ();
+    color: $c-princpal-claro;
     @include border-radius ();
 }
 .titulo_contenedor-verde{
     @include titulos-contenedores-receta ();
-    color: $c-verde-oscuro;
+    color: $c-principal;
 }
 .cenTer{
     display: flex;
