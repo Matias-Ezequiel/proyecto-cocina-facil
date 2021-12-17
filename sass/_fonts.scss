@@ -5,7 +5,11 @@
 }
 
 html{
-    font-size: 1em;       
+    font-size: 1.1em;       
+}
+
+p{
+    font-size: 1.2em;
 }
 
 h1{
@@ -14,9 +18,17 @@ h1{
     text-align: center; 
 }
 
-h2 h3{
+h2 h3 h4 h5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10em;
+}
+
+.formato-parrafo{
+    @include ds-flex-center ();
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
 }
 
 //* SIZES
@@ -25,8 +37,9 @@ $w-75: 75%;
 $w-80: 80%;
 $w-85: 85%;
 $w-95: 95%;
-$h-50: 25vh;
-$h-40: 40%vh;
+$h-50: 25%vh;
+$h-40: 40vh;
+$h-80: 60%vh;
 
 //* FONTS
 
