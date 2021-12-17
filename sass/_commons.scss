@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(../img/FONDO.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -89,21 +89,29 @@ $c-naranja: #D16D0F;
     justify-content: space-between;
     align-items: center;
 }
+.ds-inline-block{
+    display: inline-block;
+}
 
 //* CONTENEDORES DE RECETAS
 
 @mixin contenedor-receta{
-    margin: auto;
+    margin: 0;
     padding: 0;
-    width: 60%;
+    width: auto;
     height: auto;
     list-style: none;
     display: flex;
     flex-direction: row;   
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     background-color: $c-princpal;
 }
+
+//* OTROS 
+
+    .inline-block{
+        display: inline-block;
+    }
 
 //* TODO VEGANO
 //* LICUADOS
