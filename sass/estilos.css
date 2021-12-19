@@ -102,7 +102,7 @@ h2 h3 h4 h5 {
   padding: 0%;
 }
 
-nav {
+.nav {
   margin: 0;
   padding: 0;
   height: 80px;
@@ -121,7 +121,7 @@ nav {
           justify-content: flex-start;
 }
 
-nav ul {
+.nav ul {
   margin: 0;
 }
 
@@ -261,6 +261,13 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.cards:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 12px 16px black;
+          box-shadow: 0 12px 16px black;
 }
 
 .title-verde {
