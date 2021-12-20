@@ -1,6 +1,6 @@
 
 body{
-    background-color: white;
+    background-color: #ffff;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -93,26 +93,32 @@ $c-naranja: #D16D0F;
     display: inline-block;
 }
 
-//* CONTENEDORES DE RECETAS
+//* CONTENEDORES
 
 @mixin contenedor-receta{
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width: auto;
+    width: 50%;
     height: auto;
     list-style: none;
     display: flex;
     flex-direction: row;   
-    justify-content: flex-start;
+    justify-content: center;
     background-color: $c-princpal;
 }
-
+@mixin contenedor-comun{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: $c-princpal-claro;
+    
+}
 //* OTROS 
-
-    .inline-block{
-        display: inline-block;
-    }
-
 //* TODO VEGANO
 //* LICUADOS
 //* 15 MIN

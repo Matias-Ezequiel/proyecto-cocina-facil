@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #ffff;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -50,10 +50,6 @@ a {
 }
 
 .ds-inline-block {
-  display: inline-block;
-}
-
-.inline-block {
   display: inline-block;
 }
 
@@ -164,8 +160,8 @@ h2 h3 h4 h5 {
   background-color: #9e4fee;
 }
 
-.vio:hover {
-  background-color: #6219a7;
+.color-principal {
+  background-color: #9e4fee;
 }
 
 h1 {
@@ -282,9 +278,9 @@ h3 {
 }
 
 .contenedor-todo-vegano {
-  margin: 0;
+  margin: auto;
   padding: 0;
-  width: auto;
+  width: 50%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -294,13 +290,34 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #6c24af;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
+}
+
+.contenedor-comun {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9e4fee;
 }
 
 .title-rosa {
@@ -315,9 +332,9 @@ h3 {
 }
 
 .contenedor-licuados {
-  margin: 0;
+  margin: auto;
   padding: 0;
-  width: auto;
+  width: 50%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -327,9 +344,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #6c24af;
   border-solid: 30px;
   border-radius: 10px;
@@ -348,9 +365,9 @@ h3 {
 }
 
 .contenedor-15min {
-  margin: 0;
+  margin: auto;
   padding: 0;
-  width: auto;
+  width: 50%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -360,9 +377,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #6c24af;
   border-solid: 30px;
   border-radius: 10px;
@@ -381,9 +398,9 @@ h3 {
 }
 
 .contenedor-soja {
-  margin: 0;
+  margin: auto;
   padding: 0;
-  width: auto;
+  width: 50%;
   height: auto;
   list-style: none;
   display: -webkit-box;
@@ -393,9 +410,9 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #6c24af;
   border-solid: 30px;
   border-radius: 10px;
@@ -403,9 +420,27 @@ h3 {
 }
 
 .footer {
-  height: 80px;
+  margin: auto;
+  padding: auto;
+  height: 40px;
   background: #a35dff;
   background: -webkit-gradient(linear, left top, left bottom, from(#a35dff), color-stop(42%, #853fad), color-stop(72%, #582e73), to(#40245b));
   background: linear-gradient(180deg, #a35dff 0%, #853fad 42%, #582e73 72%, #40245b 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -1,4 +1,13 @@
 .footer{
-    height: 80px;
+    margin: auto;
+    padding: auto;
+    height: 40px;
     @include c-grad-footer ();
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }    
