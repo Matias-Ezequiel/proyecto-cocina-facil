@@ -99,7 +99,7 @@ h2 h3 h4 h5 {
 }
 
 .nav {
-  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   height: 80px;
   background: #a35cff;
@@ -191,19 +191,6 @@ h3 {
           animation-delay: 0;
 }
 
-.transfo {
-  padding: 0;
-  margin: auto;
-}
-
-.transfo :hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  transform-box: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
 .slide-carousel {
   -webkit-animation-name: slide-carousel;
           animation-name: slide-carousel;
@@ -229,7 +216,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #6c24af;
+  background-color: #6c24afbd;
 }
 
 .aparecer {
@@ -239,6 +226,30 @@ h3 {
           animation-duration: 2s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
+}
+
+.contenedor-comun {
+  margin: 15px 5% 20px 5%;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9e4fee71;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 5px 5px 5px #6c24af6c;
+          box-shadow: 0 5px 5px 5px #6c24af6c;
 }
 
 .indexh3 {
@@ -259,11 +270,43 @@ h3 {
           justify-content: center;
 }
 
+.cards {
+  -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.562);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.562);
+  margin-bottom: 15px;
+}
+
 .cards:hover {
   -webkit-transform: translateY(-15px);
           transform: translateY(-15px);
-  -webkit-box-shadow: 0 12px 16px black;
-          box-shadow: 0 12px 16px black;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.contenedor-texto {
+  margin: 10px;
+  padding: 10px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9e4fee71;
+  border-radius: 7px;
+  border-solid: 30px;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .title-verde {
@@ -277,77 +320,12 @@ h3 {
   padding: 15px;
 }
 
-.contenedor-todo-vegano {
-  margin: auto;
-  padding: 0;
-  width: 50%;
-  height: auto;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #6c24af;
-  border-solid: 30px;
-  border-radius: 10px;
-  padding: 15px;
-}
-
-.contenedor-comun {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #9e4fee;
-}
-
 .title-rosa {
   color: #b337a8;
   text-align: center;
 }
 
 .borde-rosa {
-  border-solid: 30px;
-  border-radius: 10px;
-  padding: 15px;
-}
-
-.contenedor-licuados {
-  margin: auto;
-  padding: 0;
-  width: 50%;
-  height: auto;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #6c24af;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
@@ -364,28 +342,6 @@ h3 {
   padding: 15px;
 }
 
-.contenedor-15min {
-  margin: auto;
-  padding: 0;
-  width: 50%;
-  height: auto;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #6c24af;
-  border-solid: 30px;
-  border-radius: 10px;
-  padding: 15px;
-}
-
 .title-marron {
   color: #966B45;
   text-align: center;
@@ -397,31 +353,30 @@ h3 {
   padding: 15px;
 }
 
-.contenedor-soja {
-  margin: auto;
-  padding: 0;
-  width: 50%;
-  height: auto;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #6c24af;
-  border-solid: 30px;
-  border-radius: 10px;
-  padding: 15px;
+@media only screen and (max-width: 971px) {
+  nav div ul {
+    margin: 0;
+    padding: 20px 0;
+    background-color: #b973ff;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    position: fixed;
+    left: 0;
+  }
 }
 
 .footer {
-  margin: auto;
-  padding: auto;
+  margin-bottom: 0;
+  padding: 0;
   height: 40px;
   background: #a35dff;
   background: -webkit-gradient(linear, left top, left bottom, from(#a35dff), color-stop(42%, #853fad), color-stop(72%, #582e73), to(#40245b));
@@ -440,7 +395,5 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  position: fixed;
-  bottom: 0;
 }
 /*# sourceMappingURL=estilos.css.map */
