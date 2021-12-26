@@ -86,6 +86,7 @@ h3 {
 .title-verde{
     color: $c-verde;
     text-align: center;
+    padding: 10px;
 }
 .borde-verde{
     @include border-radius ();
@@ -93,6 +94,7 @@ h3 {
 
 //* LICUADOS  -----------------------------------------------------------------------------------------------
 .title-rosa{
+    padding: 10px;
     color: $c-rosa;
     text-align: center;    
 }
@@ -102,6 +104,7 @@ h3 {
 
 //* 15 MIN    -----------------------------------------------------------------------------------------------
 .title-naranja{
+    padding: 10px;
     color: $c-naranja;
     text-align: center;
 }
@@ -111,6 +114,7 @@ h3 {
 
 //* SOJA     -----------------------------------------------------------------------------------------------
 .title-marron{
+    padding: 10px;
     color: $c-marron;
     text-align: center;
 }

@@ -329,6 +329,7 @@ h3 {
 .title-verde {
   color: #1f9c00;
   text-align: center;
+  padding: 10px;
 }
 
 .borde-verde {
@@ -338,6 +339,7 @@ h3 {
 }
 
 .title-rosa {
+  padding: 10px;
   color: #b337a8;
   text-align: center;
 }
@@ -349,6 +351,7 @@ h3 {
 }
 
 .title-naranja {
+  padding: 10px;
   color: #D16D0F;
   text-align: center;
 }
@@ -360,6 +363,7 @@ h3 {
 }
 
 .title-marron {
+  padding: 10px;
   color: #966B45;
   text-align: center;
 }
