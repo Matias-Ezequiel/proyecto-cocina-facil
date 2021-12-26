@@ -3,7 +3,8 @@ body{
     background-color: #ffff;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: scroll
+
 }
 
 a{
@@ -107,6 +108,7 @@ $c-naranja: #D16D0F;
     background-color: #9e4fee71;
     border-radius: 7px;
     box-shadow: 0 5px 5px 5px #6c24af6c;
+    overflow: hidden;
     
 }
 @mixin contenedor-texto{
@@ -117,8 +119,9 @@ $c-naranja: #D16D0F;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #9e4fee71;
+    background-color: rgba(158, 79, 238, 0.443);
     border-radius: 7px;
+    overflow: hidden;
 }
 //* OTROS 
 //* TODO VEGANO

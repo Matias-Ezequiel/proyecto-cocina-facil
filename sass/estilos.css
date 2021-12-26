@@ -56,11 +56,7 @@ a {
 * {
   padding: auto;
   margin: auto;
-  font-family: 'Raleway', sans-serif;
-}
-
-html {
-  font-size: 1.1em;
+  font-family: 'Georama', sans-serif;
 }
 
 p {
@@ -250,6 +246,15 @@ h3 {
   border-radius: 7px;
   -webkit-box-shadow: 0 5px 5px 5px #6c24af6c;
           box-shadow: 0 5px 5px 5px #6c24af6c;
+  overflow: hidden;
+}
+
+.arrow {
+  background-color: #6c24af62;
+  border-radius: 50px;
+  position: fixed;
+  top: 90%;
+  right: 5px;
 }
 
 .indexh3 {
@@ -271,18 +276,29 @@ h3 {
 }
 
 .cards {
+  margin-top: 15px;
+  padding: 0;
   -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.562);
           box-shadow: 0 12px 16px rgba(0, 0, 0, 0.562);
   margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: 10px;
+      flex-wrap: 10px;
 }
 
 .cards:hover {
   -webkit-transform: translateY(-15px);
           transform: translateY(-15px);
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .contenedor-texto {
@@ -302,8 +318,9 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #9e4fee71;
+  background-color: rgba(158, 79, 238, 0.443);
   border-radius: 7px;
+  overflow: hidden;
   border-solid: 30px;
   border-radius: 10px;
   padding: 15px;
@@ -354,6 +371,14 @@ h3 {
 }
 
 @media only screen and (max-width: 971px) {
+  body {
+    font-size: .9em;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
   nav div ul {
     margin: 0;
     padding: 20px 0;
@@ -371,6 +396,24 @@ h3 {
     text-align: center;
     position: fixed;
     left: 0;
+  }
+  .cards {
+    display: none;
+  }
+  .contenedor-comun {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-de-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .img-de-3 {
+    display: none;
   }
 }
 

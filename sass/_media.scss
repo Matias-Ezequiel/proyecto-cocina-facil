@@ -1,15 +1,41 @@
 @media only screen and (max-width: 971px) {
-    nav div ul{
-        margin: 0;
-        padding: 20px 0;
-        background-color: #b973ff;
-        top: 80px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        position: fixed;
-        left: 0;
-      }
+  body{
+    font-size: .9em;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+   
+  nav div ul{
+    margin: 0;
+    padding: 20px 0;
+    background-color: #b973ff;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    } 
+    
+  .cards{
+      display: none;
+  }
+  .contenedor-comun{
+    flex-direction: column;
+  }
+  .img-de-3{
+    display: none;
+  }
 }
+
+@media only screen and (max-width: 580px) {
+  .img-de-3{
+    display: none;
+  }
+}
+  
