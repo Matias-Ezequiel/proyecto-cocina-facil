@@ -378,7 +378,90 @@ h3 {
   padding: 15px;
 }
 
-@media only screen and (max-width: 1024px) {
+.contenedor-formulario {
+  margin: 15px 10% 0 10%;
+  padding: 0;
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9e4fee71;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 5px 5px 5px #6c24af6c;
+          box-shadow: 0 5px 5px 5px #6c24af6c;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.form-register {
+  width: 400px;
+  height: 60vh;
+  background: #9e4fee69;
+  padding: 25px;
+  margin: auto;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  -webkit-box-shadow: 7px 13px rgba(0, 0, 0, 0.425);
+          box-shadow: 7px 13px rgba(0, 0, 0, 0.425);
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #a320b4;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
   .contenedor-comun {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -391,11 +474,14 @@ h3 {
         -ms-flex-align: center;
             align-items: center;
   }
+  .contenedor-formulario img {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 990px) {
   body {
-    font-size: .9em;
+    font-size: .8em;
     width: 100%;
     height: 100%;
     margin: 0;

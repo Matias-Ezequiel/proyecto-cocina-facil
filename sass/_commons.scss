@@ -125,6 +125,20 @@ $c-naranja: #D16D0F;
     border-radius: 7px;
     overflow: hidden;
 }
+@mixin contenedor-formulario{
+    margin: 15px 10% 0 10%;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #9e4fee71;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px 5px #6c24af6c;
+    overflow: hidden;
+}
 //* OTROS 
 //* TODO VEGANO
 //* LICUADOS
