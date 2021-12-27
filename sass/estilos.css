@@ -378,7 +378,22 @@ h3 {
   padding: 15px;
 }
 
-@media only screen and (max-width: 971px) {
+@media only screen and (max-width: 1024px) {
+  .contenedor-comun {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
   body {
     font-size: .9em;
     width: 100%;
@@ -414,6 +429,9 @@ h3 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contenedor-comun img {
+    width: 100%;
+  }
   .img-de-3 {
     display: none;
   }
@@ -422,6 +440,12 @@ h3 {
 @media only screen and (max-width: 580px) {
   .img-de-3 {
     display: none;
+  }
+  .navbar {
+    height: 3%;
+  }
+  nav div ul {
+    top: 60px;
   }
 }
 
@@ -446,5 +470,11 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+}
+
+.footer-fix {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
 }
 /*# sourceMappingURL=estilos.css.map */

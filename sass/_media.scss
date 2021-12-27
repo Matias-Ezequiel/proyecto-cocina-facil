@@ -1,4 +1,12 @@
-@media only screen and (max-width: 971px) {
+@media only screen and (max-width: 1024px) {
+  .contenedor-comun{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
   body{
     font-size: .9em;
     width: 100%;
@@ -21,13 +29,17 @@
     position: fixed;
     left: 0;
     } 
-    
+  
   .cards{
-      display: none;
+    display: none;
   }
   .contenedor-comun{
     flex-direction: column;
+      img{
+        width: 100%;
+      }
   }
+
   .img-de-3{
     display: none;
   }
@@ -36,6 +48,12 @@
 @media only screen and (max-width: 580px) {
   .img-de-3{
     display: none;
+  }
+  .navbar{
+    height: 3%;
+  }
+  nav div ul{
+    top: 60px;
   }
 }
   
